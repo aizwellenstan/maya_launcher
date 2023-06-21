@@ -22,7 +22,7 @@ def delayedStartup(*args, **kwargs):
     #cmds.modelEditor ('modelPanel4', e=True,  udm= True)
 
     # https://qiita.com/aizwellenstan/items/2b1c286392fa9c8ae969
-    cmds.currentUnit( time='ntsc')
+    cmds.currentUnit( time='film')
     
     # cmds.optionVar(sv =('preferredRenderer' ,'arnold'))
     cmds.playbackOptions(min = 1, ast =1, max =120, aet = 120)
